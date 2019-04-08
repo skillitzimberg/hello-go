@@ -1,0 +1,13 @@
+# Meta Data
+name: hello # the name of the package
+version: 1.0 # the latest version
+runtime: go # the language you're writing code in
+exec: main
+
+executables:
+  darwin:
+    amd64: main_darwin_amd64
+
+steps:
+  hello@1.0: # the name of the step with the version
+    description: Prints a greeting to the console
